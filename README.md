@@ -49,14 +49,20 @@ Clone or download the project:
 
 ```bash
 pip install -r requirements.txt
+
+```
 Install the Playwright browser engines:
 
-bash
+
+```bash
 Copy code
 playwright install
+
+```
 Project files:
 
-bash
+
+```bash
 Copy code
 main.py                # Interactive entrypoint
 playwright_scraper.py  # Scraping logic
@@ -64,17 +70,22 @@ export_utils.py        # Export helpers
 requirements.txt       # Dependencies
 run.py                 # Quick search (optional)
 outputs/               # Generated files
+
+```
 ▶️ Basic Usage
 Run the interactive script:
 
-bash
+
+```bash
 Copy code
 python main.py
 Enter a Persian search term when prompted (examples below).
 Generated results will appear inside the outputs/ folder.
 
+```
 🔎 Quick Search Examples
-bash
+
+```bash
 Copy code
 # Search for parks
 python main.py
@@ -90,7 +101,9 @@ python main.py
 ⚙️ Advanced Usage (Optional)
 If run.py exists:
 
-bash
+```
+
+```bash
 Copy code
 python run.py "پارک"
 python run.py "رستوران"
@@ -108,6 +121,7 @@ latitude	Latitude	35.6892
 longitude	Longitude	51.3890
 url	Google Maps link	https://maps.google.com/…
 
+```
 🧩 Project Structure
 arduino
 Copy code
