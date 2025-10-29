@@ -1,0 +1,18 @@
+[
+  {
+    "name": "رستوران نمونه",
+    "address": "تهران، خیابان نمونه",
+    "lat": 35.6892,
+    "lon": 51.389,
+    "category": "رستوران",
+    "source": "https://api.neshan.org/v1/example"
+  },
+  {
+    "name": "کافی شاپ نمونه",
+    "address": "تهران، میدان نمونه",
+    "lat": 35.7,
+    "lon": 51.4,
+    "category": "کافی شاپ",
+    "source": "https://api.neshan.org/v1/example"
+  }
+]

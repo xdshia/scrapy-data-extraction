@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Ergebnisse",
+    "rating": null,
+    "reviews": null,
+    "category": null,
+    "image_url": null,
+    "latitude": null,
+    "longitude": null,
+    "url": null
+  },
+  {
+    "name": "Bürgerpark",
+    "rating": "3",
+    "reviews": null,
+    "category": null,
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npKyfiIUVMzOA1i-NOAASz4OTGl7fkiS_8k0wRwHY1BSCqms8kvHymJ1C7Ed6d8ym7joPZ6xaQEjJ1kqJ1VOu9e60-FImk8h8S1c6RLsko_M3OyI-R-HJd2ypDpT0ahWNIclj1djg=w122-h92-k-no",
+    "latitude": "50.0225388",
+    "longitude": "8.6894025",
+    "url": "https://www.google.com/maps/place/B%C3%BCrgerpark/data=!4m7!3m6!1s0x47bd732b2d006ab3:0x9b5e704837cd887c!8m2!3d50.0225388!4d8.6894025!16s%2Fg%2F1trqgb5r!19sChIJs2oALStzvUcRfIjNN0hwXps?authuser=0&hl=de&rclk=1"
+  },
+  {
+    "name": "Park ·  · Erich-Kästner-Straße 2",
+    "rating": null,
+    "reviews": null,
+    "category": null,
+    "image_url": null,
+    "latitude": null,
+    "longitude": null,
+    "url": null
+  },
+  {
+    "name": "Kunst im Park - Dreieich-Sprendlingen",
+    "rating": "5",
+    "reviews": null,
+    "category": null,
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrUhFfhDB85d0Kn83anrmYP2gAK0tRx10nW5Uy4exFkwmBehMia8WB5wlV757wTBuHNWkjJUVxq993fL7k2vo-hQTU_p3VQcAnkQxjZvpohe4byF6zRWD7DUiIS0Mzwb2Qk3XWN=w122-h92-k-no",
+    "latitude": "50.0236392",
+    "longitude": "8.6894397",
+    "url": "https://www.google.com/maps/place/Kunst+im+Park+-+Dreieich-Sprendlingen/data=!4m7!3m6!1s0x47bd0cd517dcbda5:0x2ae152435e2eec2a!8m2!3d50.0236392!4d8.6894397!16s%2Fg%2F11bbrjgvm4!19sChIJpb3cF9UMvUcRKuwuXkNS4So?authuser=0&hl=de&rclk=1"
+  },
+  {
+    "name": "Grüneburgpark",
+    "rating": "6",
+    "reviews": null,
+    "category": null,
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrNdQ8O3cShYBexMqLjQN0Ai5iCAtl_7aEoIdOLdsKaJ8Bg3I7oWP4Mk1tuQ9H2wOxYzukgDlHvTlbX-pHmTBrR_v5fn7cd2SL6kU70k8PqgbRwC7GRLA_6lcUNQwSQ8heIBeu6=w122-h92-k-no",
+    "latitude": "50.1273707",
+    "longitude": "8.6616409",
+    "url": "https://www.google.com/maps/place/Gr%C3%BCneburgpark/data=!4m7!3m6!1s0x47bd09486cefcd9d:0x6f1d86e7cb5f62c4!8m2!3d50.1273707!4d8.6616409!16zL20vMGZrbmhs!19sChIJnc3vbEgJvUcRxGJfy-eGHW8?authuser=0&hl=de&rclk=1"
+  },
+  {
+    "name": "Parc des Buttes-Chaumont",
+    "rating": "6",
+    "reviews": null,
+    "category": null,
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqE1BdMLLVLgwkQpJhcRzjodoyoBPNhOmEYZlcxXvnbK7Dwrt30vT8lqwKT8bLNRskrsbLqhrX7AYZNmqD4gsqGJpNgjR3SP_wKs1vjc38PzAt9nDzg43AU5N8bW39x0E_ye0KL9A=w122-h92-k-no",
+    "latitude": "48.8809496",
+    "longitude": "2.3827609",
+    "url": "https://www.google.com/maps/place/Parc+des+Buttes-Chaumont/data=!4m7!3m6!1s0x47e66dc6143ed387:0xf26bed6076959491!8m2!3d48.8809496!4d2.3827609!16zL20vMDVodzM1!19sChIJh9M-FMZt5kcRkZSVdmDta_I?authuser=0&hl=de&rclk=1"
+  },
+  {
+    "name": "Petřín Gardens",
+    "rating": "6",
+    "reviews": null,
+    "category": null,
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nomxqQnTG5JTLAv4Af5msbsaPyht28WHIxPy3OjqxeDOpFOnPwpu-Ej9nSpGSJNjGxqOjUHDEDxSxqCroWiN61v2Vy29w-AZT7vVcXgp0Fk2S-K7COUfxko26NzSZa2fLkc5lTf=w122-h92-k-no",
+    "latitude": "50.0827039",
+    "longitude": "14.3987325",
+    "url": "https://www.google.com/maps/place/Pet%C5%99%C3%ADn+Gardens/data=!4m7!3m6!1s0x470b9503ac6552a5:0x86b048bb65379c0c!8m2!3d50.0827039!4d14.3987325!16s%2Fg%2F12148h5f!19sChIJpVJlrAOVC0cRDJw3ZbtIsIY?authuser=0&hl=de&rclk=1"
+  },
+  {
+    "name": "Nature Park Draháň-Troja",
+    "rating": "7",
+    "reviews": null,
+    "category": null,
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrV722o1tyd1fVWnPfGEfvyJGll74Kw92T8Q-VLyiau6T-rhCJaqH3sdphD3ReZ83OX_yS9UW5UQcYOxbhWqgn_4vn_75PAfpghjYbxizs6G_vS9-jmSyCfVSwkWFJdxB7pPAUBYA=w163-h92-k-no",
+    "latitude": "50.1433925",
+    "longitude": "14.4045062",
+    "url": "https://www.google.com/maps/place/Nature+Park+Drah%C3%A1%C5%88-Troja/data=!4m7!3m6!1s0x470beadd6afc6ced:0x367d7cf3fd83f057!8m2!3d50.1433925!4d14.4045062!16s%2Fg%2F1yh7_xj9z!19sChIJ7Wz8at3qC0cRV_CD_fN8fTY?authuser=0&hl=de&rclk=1"
+  }
+]
