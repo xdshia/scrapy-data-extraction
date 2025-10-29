@@ -1,216 +1,217 @@
-Tehran Google Maps Scraper
-A powerful Python scraper that extracts place data from Google Maps specifically for Tehran, Iran. Perfect for researchers, data analysts, and developers who need location data from Tehran.
+# 🗺️ Tehran Google Maps Scraper
 
-🌟 Features
-🔍 Smart Searching: Automatically searches in Tehran for any type of place
+A powerful Python-based scraper that extracts **location data from Google Maps** specifically for **Tehran, Iran**.  
+Perfect for developers, researchers, analysts, and data-driven projects requiring structured geographic information.
 
-📍 Persian Data: Extracts Persian names, ratings, and categories
+---
 
-🗺️ Coordinates: Gets latitude and longitude for each place
+## 🌟 Features
 
-🖼️ Images: Extracts place images from Google Maps
+- 🔍 **Smart Searching** – Automatically searches Google Maps scoped to Tehran
+- 📍 **Persian Data** – Extracts Persian names, categories, and ratings
+- 🗺️ **Geo Coordinates** – Latitude & longitude for each place
+- 🖼️ **Images** – Captures place image URLs directly from Google Maps
+- 📊 **Multiple Export Formats** – Save results to **Excel (.xlsx)** and **JSON**
+- 🚀 **Simple CLI Interface** – Easy prompts & command-line usage
+- 💾 **Error Handling** – Robust exception recovery & file locking
 
-📊 Multiple Formats: Exports to Excel (.xlsx) and JSON formats
+---
 
-🚀 Easy to Use: Simple command-line interface
+## 📋 Supported Place Types
 
-💾 Error Handling: Robust error recovery and file locking handling
+- 🍽️ رستوران (Restaurants)
+- 🌳 پارک (Parks)
+- 🏨 هتل (Hotels)
+- ☕ کافه (Cafes)
+- 🛍️ فروشگاه (Stores)
+- 🎬 سینما (Cinemas)
+- 🏛️ موزه (Museums)
+- 🏢 مرکز خرید (Shopping Malls)
+- 🏫 دانشگاه (Universities)
+- 🏥 بیمارستان (Hospitals)
 
-📋 Supported Place Types
-🍽️ رستوران - Restaurants
+You can also search custom Persian queries!
 
-🌳 پارک - Parks
+---
 
-🏨 هتل - Hotels
+## 🚀 Quick Start
 
-☕ کافه - Cafes
+### ✅ Requirements
 
-🛍️ فروشگاه - Stores
+- Python **3.7+**
+- `pip`
 
-🎬 سینما - Cinemas
+---
 
-🏛️ موزه - Museums
+### 📦 Installation
 
-🏢 مرکز خرید - Shopping malls
+Clone or download the project:
 
-🏫 دانشگاه - Universities
-
-🏥 بیمارستان - Hospitals
-
-🚀 Quick Start
-Prerequisites
-Python 3.7 or higher
-
-pip (Python package manager)
-
-Installation
-Clone or download the project files:
-
-main.py - Main interactive script
-
-playwright_scraper.py - Scraping logic
-
-export_utils.py - Export utilities
-
-requirements.txt - Dependencies
-
-Install dependencies:
-
-bash
+```bash
 pip install -r requirements.txt
-Install Playwright browser:
+Install the Playwright browser engines:
 
 bash
+Copy code
 playwright install
-Basic Usage
-Run the interactive scraper:
+Project files:
 
 bash
+Copy code
+main.py                # Interactive entrypoint
+playwright_scraper.py  # Scraping logic
+export_utils.py        # Export helpers
+requirements.txt       # Dependencies
+run.py                 # Quick search (optional)
+outputs/               # Generated files
+▶️ Basic Usage
+Run the interactive script:
+
+bash
+Copy code
 python main.py
-Enter your search query when prompted (examples below)
+Enter a Persian search term when prompted (examples below).
+Generated results will appear inside the outputs/ folder.
 
-Wait for results - the script will open a browser and extract data
-
-Check the outputs/ folder for your Excel and JSON files
-
-Quick Search Examples
+🔎 Quick Search Examples
 bash
+Copy code
 # Search for parks
 python main.py
-# Then enter: پارک
+# Input: پارک
 
-# Search for restaurants  
+# Search for restaurants
 python main.py
-# Then enter: رستوران
+# Input: رستوران
 
 # Search for hotels
 python main.py
-# Then enter: هتل
-Advanced Usage
-Using the quick search script (if you have run.py):
+# Input: هتل
+⚙️ Advanced Usage (Optional)
+If run.py exists:
 
 bash
+Copy code
 python run.py "پارک"
 python run.py "رستوران"
 python run.py "کافه"
-📊 Output Data
-The scraper generates Excel files with the following columns:
+📊 Output Format
+Excel columns include:
 
 Column	Description	Example
 name	Persian name of the place	پارک لاله
-rating	Google rating (1-5)	4.3
-reviews	Number of reviews	1,234
+rating	Google rating (1–5)	4.3
+reviews	Number of user reviews	1,234
 category	Type of place	رستوران
-image_url	URL of place image	https://...
-latitude	Latitude coordinates	35.6892
-longitude	Longitude coordinates	51.3890
-url	Google Maps URL	https://maps.google.com/...
-🛠️ Project Structure
-text
+image_url	URL of the place’s image	https://...
+latitude	Latitude	35.6892
+longitude	Longitude	51.3890
+url	Google Maps link	https://maps.google.com/…
+
+🧩 Project Structure
+arduino
+Copy code
 tehran-maps-scraper/
 │
-├── main.py                 # Interactive main script
-├── playwright_scraper.py   # Core scraping logic
-├── export_utils.py         # Excel/JSON export functions
-├── requirements.txt        # Python dependencies
-├── run.py                 # Quick search script (optional)
-└── outputs/               # Generated Excel/JSON files
+├── main.py
+├── playwright_scraper.py
+├── export_utils.py
+├── requirements.txt
+├── run.py                (optional helper)
+└── outputs/              # Excel/JSON results
     ├── پارک_tehran.xlsx
     ├── رستوران_tehran.xlsx
     └── ...
 🔧 Technical Details
 Dependencies
-playwright: Browser automation
+playwright – Browser automation
 
-pandas: Data manipulation and Excel export
+pandas – Data handling
 
-openpyxl: Excel file handling
+openpyxl – Excel export
 
 How It Works
-Opens Google Maps with Tehran coordinates
+Opens Google Maps centered on Tehran
 
-Performs search with Persian queries
+Performs a Persian-language search
 
-Scrolls through results to load all places
+Scrolls to load all results
 
-Extracts data from each place card
+Extracts fields from place cards
 
-Exports to organized Excel/JSON files
+Saves formatted outputs to Excel/JSON
 
 🐛 Troubleshooting
-Common Issues
-"No places found"
+“No places found”
 
-Try different search terms
+Try more general keywords
 
-Check your internet connection
+Check connection
 
-Ensure you're not using a VPN that blocks Google
+Disable problematic VPNs
 
-"Permission denied" error
+“Permission Denied” when saving
 
 Close any open Excel files
 
-The script will automatically create a backup file
+Browser won't open
 
-Browser doesn't open
+Re-run:
 
-Run playwright install again
-
-Ensure you have Chrome/Firefox installed
-
+bash
+Copy code
+playwright install
 Persian text issues
 
-The script handles Persian encoding automatically
+Unicode fully supported in Excel & JSON
 
-Excel files support Persian text correctly
+⚡ Performance Tips
+Use specific queries
 
-Performance Tips
-Use specific queries for faster results
+Results are cached in outputs/
 
-The script automatically scrolls to load all results
-
-Results are cached in the outputs/ folder
+Avoid extremely broad searches when possible
 
 📝 Example Output
-After searching for "پارک", you'll get an Excel file like:
+Searching for "پارک" generates rows such as:
 
 name	rating	reviews	category	latitude	longitude
 پارک لاله	4.5	8,742	پارک	35.7234	51.3880
 پارک ملت	4.6	9,123	پارک	35.7654	51.4109
 پارک ساعی	4.4	7,891	پارک	35.7345	51.3998
+
 ⚠️ Important Notes
-Educational Use: This tool is for educational and research purposes
+For educational & research purposes
 
-Rate Limiting: Please use responsibly to avoid overwhelming Google's servers
+Please respect Google Maps’ Terms of Service
 
-Terms of Service: Respect Google Maps' Terms of Service
+Do not overload Google’s servers
 
-Data Accuracy: Data comes from Google Maps and may have limitations
+Accuracy depends on Google’s dataset
 
 🤝 Contributing
-Feel free to fork this project and submit pull requests for:
+Pull requests welcome!
 
-Additional features
+New features
 
 Bug fixes
 
-Performance improvements
+Data improvements
 
 Documentation updates
 
 📄 License
-This project is for educational purposes. Please use responsibly and respect website terms of service.
+This project is for educational purposes. Use responsibly.
 
 🆘 Support
-If you encounter issues:
+If you encounter problems:
 
-Check the troubleshooting section above
+Review troubleshooting above
 
-Ensure all dependencies are installed
+Verify all dependencies are installed
 
-Try running with a simple query like "پارک"
+Try simple searches (e.g., پارک)
 
-Check that your Python version is 3.7+
+Ensure Python is 3.7+
 
 Happy Scraping! 🎉
