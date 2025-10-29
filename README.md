@@ -108,6 +108,8 @@ Copy code
 python run.py "پارک"
 python run.py "رستوران"
 python run.py "کافه"
+
+```
 📊 Output Format
 Excel columns include:
 
@@ -121,8 +123,10 @@ latitude	Latitude	35.6892
 longitude	Longitude	51.3890
 url	Google Maps link	https://maps.google.com/…
 
-```
+
 🧩 Project Structure
+
+```bash
 arduino
 Copy code
 tehran-maps-scraper/
@@ -136,6 +140,8 @@ tehran-maps-scraper/
     ├── پارک_tehran.xlsx
     ├── رستوران_tehran.xlsx
     └── ...
+
+```
 🔧 Technical Details
 Dependencies
 playwright – Browser automation
