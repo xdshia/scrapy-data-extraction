@@ -111,6 +111,8 @@ python run.py "کافه"
 
 ```
 📊 Output Format
+
+```bash
 Excel columns include:
 
 Column	Description	Example
@@ -123,6 +125,7 @@ latitude	Latitude	35.6892
 longitude	Longitude	51.3890
 url	Google Maps link	https://maps.google.com/…
 
+```
 
 🧩 Project Structure
 
@@ -224,6 +227,8 @@ Documentation updates
 This project is for educational purposes. Use responsibly.
 
 🆘 Support
+
+```bash
 If you encounter problems:
 
 Review troubleshooting above
@@ -234,4 +239,5 @@ Try simple searches (e.g., پارک)
 
 Ensure Python is 3.7+
 
+```
 Happy Scraping! 🎉
